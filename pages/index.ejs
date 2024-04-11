@@ -1,0 +1,19 @@
+<% if(place) { %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Grandeur</title>
+  </head>
+  <body>
+    <h1><%= place.City %></h1>
+    <ul style="list-style: none">
+      <li><%= place.Place %></li>
+      <li><%= place.Place_desc %></li>
+      <li><%= place.Ratings %></li>
+      <li><%= place.Distance %></li>
+    </ul>
+  </body>
+</html>
+<% } %>

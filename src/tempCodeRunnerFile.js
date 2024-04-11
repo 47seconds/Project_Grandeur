@@ -1,0 +1,1 @@
+mongooseConnect(process.env.DATABASE).catch((err) => console.log(err));
